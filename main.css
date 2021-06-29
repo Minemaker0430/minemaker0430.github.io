@@ -5,12 +5,13 @@ body {
 }
 
 h1 {
+  font-family: url("MinecraftTen.ttf");
   color: white;
   text-align: center;
 }
 
 p {
-  font-family: minecraft-ten;
+  font-family: url("MinecraftRegular.otf");
   font-size: 20px;
   color: white;
   text-align: center;
