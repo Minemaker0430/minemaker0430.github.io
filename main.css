@@ -4,14 +4,24 @@ body {
   background-attachment: scroll;
 }
 
+@font-face {
+    font-family: "Minecraft Ten";
+    src: url(MinecraftTen.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Minecraft Regular";
+    src: url(MinecraftRegular.otf) format("opentype");
+}
+
 h1 {
-  font-family: url("MinecraftTen.ttf");
+  font-family: Minecraft Ten;
   color: white;
   text-align: center;
 }
 
 p {
-  font-family: url("MinecraftRegular.otf");
+  font-family: Minecraft Regular;
   font-size: 20px;
   color: white;
   text-align: center;
