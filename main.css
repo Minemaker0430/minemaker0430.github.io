@@ -18,6 +18,8 @@ h1 {
   font-family: Minecraft Ten;
   color: white;
   text-align: center;
+  outline-style: solid;
+  outline-color: black;
 }
 
 p {
