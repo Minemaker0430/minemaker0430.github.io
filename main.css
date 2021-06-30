@@ -4,6 +4,10 @@ body {
   background-attachment: scroll;
 }
 
+btn {
+  background-image: url("button-off.png");
+}
+
 @font-face {
     font-family: "Minecraft Ten";
     src: url(MinecraftTen.ttf) format("truetype");
