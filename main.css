@@ -11,15 +11,11 @@ button {
   color: white;
   text-align: center;
   text-shadow: 2px 2px 4px #000000;
+  background-repeat: no-repeat;
 }
 
 button:hover {
   background-image: url("button-on.png");
-  font-family: Minecraft Regular;
-  font-size: 20px;
-  color: white;
-  text-align: center;
-  text-shadow: 2px 2px 4px #000000;
 }
 
 @font-face {
