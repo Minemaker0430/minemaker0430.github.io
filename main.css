@@ -4,38 +4,22 @@ body {
   background-attachment: scroll;
 }
 
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 400px;
-}
-
-.container img {
-  width: 100%;
-  height: auto;
-}
-
-.container .btn {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(0%, 0%);
-  -ms-transform: translate(0%, 0%);
-  background-color: #FFFFFF00;
-  color: white;
+button {
+  background-image: url("button-off.png");
   font-family: Minecraft Regular;
   font-size: 20px;
-  text-shadow: 2px 2px 4px #000000;
-  padding: 16px 16px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
+  color: white;
   text-align: center;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-.container .btn:hover {
-  background-color: black;
+button:hover {
+  background-image: url("button-on.png");
+  font-family: Minecraft Regular;
+  font-size: 20px;
   color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 @font-face {
