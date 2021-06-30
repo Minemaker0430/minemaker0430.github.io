@@ -7,7 +7,7 @@ body {
 button {
   background-color: #FFFFFF00;
   background-image: url("button-off.png");
-  object-fit: fill;
+  background-image.object-fit: fill;
   font-family: Minecraft Regular;
   font-size: 20px;
   color: white;
